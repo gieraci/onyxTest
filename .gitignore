@@ -1,0 +1,84 @@
+# -----------------------------------------------------------------
+# .gitignore
+# -----------------------------------------------------------------
+
+# ignore all files starting with . or ~
+.*
+~*
+
+*.dbmdl
+*.jfm
+
+# ignore node/grunt dependency directories
+node_modules/
+
+# ignore composer vendor directory
+/vendor
+
+# ignore components loaded via Bower
+/bower_components
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore private/secret files
+*.der
+*.key
+*.pem
+
+# ignore Liberum' list of files and folders
+bin/
+obj/
+Debug/
+Dev/
+Release/
+Logs/
+packages/
+TestResults/
+/.vs/
+*.rdl.data
+*.rptproj.rsuser 
+*.msi 
+*.Publish.xml 
+*.suo 
+*.user 
+*.vsmdi 
+*.lock.json 
+*.rsuser 
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+/GraniteDB/GRANITEDB.dbmdl
+/GraniteDB/GRANITEDB.jfm
